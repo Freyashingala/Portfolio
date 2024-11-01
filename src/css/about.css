@@ -1,0 +1,94 @@
+.layout {
+     display: flex;
+     align-items: flex-start;
+     margin-left: 30px;
+}
+   
+.main-content {
+     flex: 1;
+     padding: 30px;
+     margin-right: 20px;
+}
+   
+.image-container {
+     width: 30%;
+     padding-right: 5%;
+}
+   
+.profile-pic {
+     width: 100%; /* Make the image fill the container */
+     height: auto; /* Maintain aspect ratio */
+     border-radius: 10px; /* Optional: rounded corners */
+}
+   
+.heading {
+     margin-top: 70px;
+     font-size: 2rem;
+     font-family: "Dancing Script", cursive;
+     font-weight: lighter;
+     color: #008080;
+}
+
+.heading h1::after {
+     content: "";
+     display: block;
+     width: 50%; /* Adjust width as desired */
+     height: 2px; /* Adjust thickness as desired */
+     background-color: #000; /* Change to desired color */
+     margin-top: 8px; /* Adjust spacing as desired */
+     margin-right: auto;
+}
+
+.dynamic-text {
+     position: relative;
+     left: -5%; /* Start off-screen to the left */
+     transition: left 0.5s ease, opacity 1s ease; /* Smooth transition for left and opacity */
+     opacity: 0; /* Initially invisible */
+ }
+ 
+ .dynamic-text.visible {
+     left: 0; /* Move to its normal position */
+     opacity: 1; /* Fade in */
+ }
+   
+p {
+     font-size: 1.3rem;
+     line-height: 1.6;
+     font-family: cursive;
+     color: #767676;
+
+}
+
+.tp-h {
+     font-size: 2rem;
+     line-height: 1.6;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: #333;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     font-style: italic;
+     font-weight: bold;
+}
+
+.tp {
+     font-size: 1.3rem;
+     line-height: 1.3;
+     font-family: cursive;
+     color: #767676;
+}
+
+.box-container {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 16px;
+     padding: 20px;
+     margin-top: 30px;
+}
+
+@media (max-width: 1168px) {
+     .heading h1::after {
+          width: 80%;
+          margin: 0 auto;
+     }
+}

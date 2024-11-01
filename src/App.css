@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.header {
+  background-color: white;
+  padding: 10px;
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 10;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+}
+
+.portfolio-title {
+  font-size: 4.5rem;
+  color: #003366; 
+  margin-right: auto;
+  margin-left: 20px;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 10px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav li {
+  margin: 0 15px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: #919191;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav a:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Add your current styles above this code */
+
+@media (max-width: 1168px) {
+  .nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+
+  /* Show menu when open */
+  .nav ul.open {
+    display: flex;
+  }
+
+  /* Style each dropdown link */
+  .nav li {
+    margin: 10px 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  /* Hamburger icon styles */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #767676;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+  }
+}

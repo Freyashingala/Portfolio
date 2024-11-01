@@ -1,0 +1,69 @@
+.contact {
+  max-width: 100%;
+  background-color: #f7f7f7;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  font-size: 1.5rem;
+  color: #767676;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+  width: 70%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+  transition: border-color 0.3s;
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus,
+.contact textarea:focus {
+  border-color: #007bff;
+}
+
+.contact textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4b0082;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+   
+.contact button:hover {
+  background-color: #007bff;
+}
+
+.ss {
+  text-align: center;
+  color: #767676;
+}
+
+@media (max-width: 1168px) {
+  .contact label {
+    align-items: center;
+  }
+
+  .contact input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+}

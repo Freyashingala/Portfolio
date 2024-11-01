@@ -1,0 +1,105 @@
+.layout {
+     display: flex;
+     align-items: flex-start;
+     margin-left: 30px;
+}
+   
+.main-content {
+     flex: 1;
+     padding: 30px;
+     margin-right: 20px;
+}
+   
+.image-container {
+     width: 30%;
+     padding-right: 5%;
+}
+   
+.profile-pic {
+     width: 100%;
+     height: auto;
+     border-radius: 10px;
+}
+
+.name {
+     margin-top: 120px;
+     font-size: 2rem;
+     font-family: "Pacifico";
+     font-weight: lighter;
+}
+
+   
+.intro {
+     font-size: 1.5rem;
+     line-height: 1.6;
+     font-family: cursive;
+     color: #767676;
+}
+
+.dynamic-pic {
+     position: relative;
+     top: -10px;
+     transition: top 0.5s ease, opacity 1s ease;
+     opacity: 0;
+}
+
+.dynamic-pic.visible {
+     top: 0;
+     opacity: 1;
+ }
+
+.dynamic-text {
+     position: relative;
+     left: -5%;
+     transition: left 0.5s ease, opacity 1s ease;
+     opacity: 0;
+ }
+ 
+ .dynamic-text.visible {
+     position: relative;
+     left: 0;
+     opacity: 1;
+}
+
+@media (max-width: 1168px) {
+     .layout {
+       flex-direction: column;
+       align-items: center;
+       margin-left: 0;
+       text-align: center;
+       max-width: 1168px;
+     }
+   
+     .image-container {
+       width: 100%;
+       max-width: 1168px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+     }
+
+     .profile-pic {
+          width: 100%; 
+          max-width: 1168px;
+          height: auto;
+          margin: 0 auto;
+          border-radius: 10px;
+     }
+   
+     .main-content {
+       margin-right: 0;
+       padding: 20px;
+       text-align: center;
+     }
+   
+     .name {
+       margin-top: 20px;
+     }
+     
+     .dynamic-text, .intro, .name, .dynamic-pic {
+       text-align: center;
+       align-items: center;
+     }
+}
