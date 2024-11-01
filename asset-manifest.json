@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9b25fefb.css",
+    "main.js": "/Portfolio/static/js/main.02045633.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/youtube-clone.jpg": "/Portfolio/static/media/youtube-clone.a9ca746352e266e7298d.jpg",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.65450b2dec556c04c9ae.jpg",
+    "static/media/anchoring.jpg": "/Portfolio/static/media/anchoring.e746066b037549451ef6.jpg",
+    "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.392f6d0cda8dfd92ec18.jpg",
+    "static/media/c.jpg": "/Portfolio/static/media/c.4af3254b864d4e030bfa.jpg",
+    "static/media/kathak.jpg": "/Portfolio/static/media/kathak.70e38f2d304506419979.jpg",
+    "static/media/react.jpg": "/Portfolio/static/media/react.fe6069ca2525770a2dfe.jpg",
+    "static/media/c++.jpg": "/Portfolio/static/media/c++.158ac0f17f08a156fa1f.jpg",
+    "static/media/poetry.jpg": "/Portfolio/static/media/poetry.f9647c82d1d82ce45bff.jpg",
+    "static/media/python.jpg": "/Portfolio/static/media/python.5732987dc20982b68073.jpg",
+    "static/media/chatbot.jpg": "/Portfolio/static/media/chatbot.7dd16b41d8b61f244c3b.jpg",
+    "static/media/css.jpg": "/Portfolio/static/media/css.9c37ebacc7d03566eb65.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.9b25fefb.css.map": "/Portfolio/static/css/main.9b25fefb.css.map",
+    "main.02045633.js.map": "/Portfolio/static/js/main.02045633.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b25fefb.css",
+    "static/js/main.02045633.js"
+  ]
+}
